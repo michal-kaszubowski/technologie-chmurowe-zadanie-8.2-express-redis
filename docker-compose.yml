@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  db:
+    image: redis:latest
+    networks:
+      - backend_network
+  api:
+    build: .
+    networks:
+      - backend_network
+    ports:
+      - '3000:3000'
+
+networks:
+  backend_network:
+    external: false
+    name: backend_network

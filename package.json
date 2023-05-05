@@ -1,0 +1,13 @@
+{
+  "name": "tmp2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:michal-kaszubowski/technologie-chmurowe-zadanie-8.2-express-redis.git",
+  "author": "Michał Kaszubowski <michal.mateusz.kaszubowski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "redis": "^4.6.6"
+  }
+}
